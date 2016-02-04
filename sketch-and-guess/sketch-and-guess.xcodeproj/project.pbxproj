@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29B23A061C63EE5200203FDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B23A051C63EE5200203FDA /* main.m */; };
+		29B23A091C63EE5200203FDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B23A081C63EE5200203FDA /* AppDelegate.m */; };
+		29B23A0C1C63EE5200203FDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B23A0B1C63EE5200203FDA /* ViewController.m */; };
+		29B23A0F1C63EE5200203FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B23A0D1C63EE5200203FDA /* Main.storyboard */; };
+		29B23A111C63EE5200203FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B23A101C63EE5200203FDA /* Assets.xcassets */; };
+		29B23A141C63EE5200203FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B23A121C63EE5200203FDA /* LaunchScreen.storyboard */; };
+		29B23A1F1C63EE5200203FDA /* sketch_and_guessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B23A1E1C63EE5200203FDA /* sketch_and_guessTests.m */; };
+		29B23A2A1C63EE5200203FDA /* sketch_and_guessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B23A291C63EE5200203FDA /* sketch_and_guessUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29B23A1B1C63EE5200203FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B239F91C63EE5200203FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B23A001C63EE5200203FDA;
+			remoteInfo = "sketch-and-guess";
+		};
+		29B23A261C63EE5200203FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B239F91C63EE5200203FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B23A001C63EE5200203FDA;
+			remoteInfo = "sketch-and-guess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29B23A011C63EE5200203FDA /* sketch-and-guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sketch-and-guess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B23A051C63EE5200203FDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B23A071C63EE5200203FDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29B23A081C63EE5200203FDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29B23A0A1C63EE5200203FDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29B23A0B1C63EE5200203FDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29B23A0E1C63EE5200203FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29B23A101C63EE5200203FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29B23A131C63EE5200203FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29B23A151C63EE5200203FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B23A1A1C63EE5200203FDA /* sketch-and-guessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sketch-and-guessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B23A1E1C63EE5200203FDA /* sketch_and_guessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sketch_and_guessTests.m; sourceTree = "<group>"; };
+		29B23A201C63EE5200203FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B23A251C63EE5200203FDA /* sketch-and-guessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sketch-and-guessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B23A291C63EE5200203FDA /* sketch_and_guessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sketch_and_guessUITests.m; sourceTree = "<group>"; };
+		29B23A2B1C63EE5200203FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B239FE1C63EE5200203FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B23A171C63EE5200203FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B23A221C63EE5200203FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B239F81C63EE5200203FDA = {
+			isa = PBXGroup;
+			children = (
+				29B23A031C63EE5200203FDA /* sketch-and-guess */,
+				29B23A1D1C63EE5200203FDA /* sketch-and-guessTests */,
+				29B23A281C63EE5200203FDA /* sketch-and-guessUITests */,
+				29B23A021C63EE5200203FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29B23A021C63EE5200203FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29B23A011C63EE5200203FDA /* sketch-and-guess.app */,
+				29B23A1A1C63EE5200203FDA /* sketch-and-guessTests.xctest */,
+				29B23A251C63EE5200203FDA /* sketch-and-guessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B23A031C63EE5200203FDA /* sketch-and-guess */ = {
+			isa = PBXGroup;
+			children = (
+				29B23A071C63EE5200203FDA /* AppDelegate.h */,
+				29B23A081C63EE5200203FDA /* AppDelegate.m */,
+				29B23A0A1C63EE5200203FDA /* ViewController.h */,
+				29B23A0B1C63EE5200203FDA /* ViewController.m */,
+				29B23A0D1C63EE5200203FDA /* Main.storyboard */,
+				29B23A101C63EE5200203FDA /* Assets.xcassets */,
+				29B23A121C63EE5200203FDA /* LaunchScreen.storyboard */,
+				29B23A151C63EE5200203FDA /* Info.plist */,
+				29B23A041C63EE5200203FDA /* Supporting Files */,
+			);
+			path = "sketch-and-guess";
+			sourceTree = "<group>";
+		};
+		29B23A041C63EE5200203FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29B23A051C63EE5200203FDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29B23A1D1C63EE5200203FDA /* sketch-and-guessTests */ = {
+			isa = PBXGroup;
+			children = (
+				29B23A1E1C63EE5200203FDA /* sketch_and_guessTests.m */,
+				29B23A201C63EE5200203FDA /* Info.plist */,
+			);
+			path = "sketch-and-guessTests";
+			sourceTree = "<group>";
+		};
+		29B23A281C63EE5200203FDA /* sketch-and-guessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29B23A291C63EE5200203FDA /* sketch_and_guessUITests.m */,
+				29B23A2B1C63EE5200203FDA /* Info.plist */,
+			);
+			path = "sketch-and-guessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29B23A001C63EE5200203FDA /* sketch-and-guess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B23A2E1C63EE5200203FDA /* Build configuration list for PBXNativeTarget "sketch-and-guess" */;
+			buildPhases = (
+				29B239FD1C63EE5200203FDA /* Sources */,
+				29B239FE1C63EE5200203FDA /* Frameworks */,
+				29B239FF1C63EE5200203FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sketch-and-guess";
+			productName = "sketch-and-guess";
+			productReference = 29B23A011C63EE5200203FDA /* sketch-and-guess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29B23A191C63EE5200203FDA /* sketch-and-guessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B23A311C63EE5200203FDA /* Build configuration list for PBXNativeTarget "sketch-and-guessTests" */;
+			buildPhases = (
+				29B23A161C63EE5200203FDA /* Sources */,
+				29B23A171C63EE5200203FDA /* Frameworks */,
+				29B23A181C63EE5200203FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29B23A1C1C63EE5200203FDA /* PBXTargetDependency */,
+			);
+			name = "sketch-and-guessTests";
+			productName = "sketch-and-guessTests";
+			productReference = 29B23A1A1C63EE5200203FDA /* sketch-and-guessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29B23A241C63EE5200203FDA /* sketch-and-guessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B23A341C63EE5200203FDA /* Build configuration list for PBXNativeTarget "sketch-and-guessUITests" */;
+			buildPhases = (
+				29B23A211C63EE5200203FDA /* Sources */,
+				29B23A221C63EE5200203FDA /* Frameworks */,
+				29B23A231C63EE5200203FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29B23A271C63EE5200203FDA /* PBXTargetDependency */,
+			);
+			name = "sketch-and-guessUITests";
+			productName = "sketch-and-guessUITests";
+			productReference = 29B23A251C63EE5200203FDA /* sketch-and-guessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B239F91C63EE5200203FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matthew McClure";
+				TargetAttributes = {
+					29B23A001C63EE5200203FDA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					29B23A191C63EE5200203FDA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 29B23A001C63EE5200203FDA;
+					};
+					29B23A241C63EE5200203FDA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 29B23A001C63EE5200203FDA;
+					};
+				};
+			};
+			buildConfigurationList = 29B239FC1C63EE5200203FDA /* Build configuration list for PBXProject "sketch-and-guess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B239F81C63EE5200203FDA;
+			productRefGroup = 29B23A021C63EE5200203FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29B23A001C63EE5200203FDA /* sketch-and-guess */,
+				29B23A191C63EE5200203FDA /* sketch-and-guessTests */,
+				29B23A241C63EE5200203FDA /* sketch-and-guessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B239FF1C63EE5200203FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B23A141C63EE5200203FDA /* LaunchScreen.storyboard in Resources */,
+				29B23A111C63EE5200203FDA /* Assets.xcassets in Resources */,
+				29B23A0F1C63EE5200203FDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B23A181C63EE5200203FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B23A231C63EE5200203FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B239FD1C63EE5200203FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B23A0C1C63EE5200203FDA /* ViewController.m in Sources */,
+				29B23A091C63EE5200203FDA /* AppDelegate.m in Sources */,
+				29B23A061C63EE5200203FDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B23A161C63EE5200203FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B23A1F1C63EE5200203FDA /* sketch_and_guessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B23A211C63EE5200203FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B23A2A1C63EE5200203FDA /* sketch_and_guessUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29B23A1C1C63EE5200203FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B23A001C63EE5200203FDA /* sketch-and-guess */;
+			targetProxy = 29B23A1B1C63EE5200203FDA /* PBXContainerItemProxy */;
+		};
+		29B23A271C63EE5200203FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B23A001C63EE5200203FDA /* sketch-and-guess */;
+			targetProxy = 29B23A261C63EE5200203FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29B23A0D1C63EE5200203FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B23A0E1C63EE5200203FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29B23A121C63EE5200203FDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B23A131C63EE5200203FDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29B23A2C1C63EE5200203FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29B23A2D1C63EE5200203FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29B23A2F1C63EE5200203FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sketch-and-guess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.sketch-and-guess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29B23A301C63EE5200203FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "sketch-and-guess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.sketch-and-guess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29B23A321C63EE5200203FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "sketch-and-guessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.sketch-and-guessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sketch-and-guess.app/sketch-and-guess";
+			};
+			name = Debug;
+		};
+		29B23A331C63EE5200203FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "sketch-and-guessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.sketch-and-guessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sketch-and-guess.app/sketch-and-guess";
+			};
+			name = Release;
+		};
+		29B23A351C63EE5200203FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "sketch-and-guessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.sketch-and-guessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "sketch-and-guess";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		29B23A361C63EE5200203FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "sketch-and-guessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.sketch-and-guessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "sketch-and-guess";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29B239FC1C63EE5200203FDA /* Build configuration list for PBXProject "sketch-and-guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B23A2C1C63EE5200203FDA /* Debug */,
+				29B23A2D1C63EE5200203FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B23A2E1C63EE5200203FDA /* Build configuration list for PBXNativeTarget "sketch-and-guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B23A2F1C63EE5200203FDA /* Debug */,
+				29B23A301C63EE5200203FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29B23A311C63EE5200203FDA /* Build configuration list for PBXNativeTarget "sketch-and-guessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B23A321C63EE5200203FDA /* Debug */,
+				29B23A331C63EE5200203FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29B23A341C63EE5200203FDA /* Build configuration list for PBXNativeTarget "sketch-and-guessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B23A351C63EE5200203FDA /* Debug */,
+				29B23A361C63EE5200203FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B239F91C63EE5200203FDA /* Project object */;
+}
